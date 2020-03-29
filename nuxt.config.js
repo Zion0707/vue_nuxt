@@ -5,8 +5,10 @@ export default {
      ** Headers of the page
      */
     head: {
-        // title: process.env.npm_package_name || '',
-        title:'测试地址',
+        title: process.env.npm_package_name || '',
+        env:{
+            npm_package_name:'技术博客'
+        },
         meta: [
             {
                 charset: 'utf-8'
@@ -27,20 +29,21 @@ export default {
                     type: 'image/x-icon',
                     href: '/favicon.ico'
                 }
-            ]
+            ],
     },
     /*
      ** Customize the progress-bar color
      */
+    // loading 颜色
     loading: {
-        color: '#fff'
+        color: '#7545C9'
     },
     /*
      ** Global CSS
      */
     css: [
         'ant-design-vue/dist/antd.less',
-        '@/assets/css/style.css',
+        '@/assets/css/normal.css'
     ],
     /*
      ** Plugins to load before mounting the App

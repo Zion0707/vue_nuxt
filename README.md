@@ -3,6 +3,16 @@
 2、已搭建简易布局  
 3、集成了 ant design vue UI 组件，配置了指定的颜色，可在 nuxt.config.js 中进行修改  
 4、集成了 echartjs 和 jquery，可根据自己的项目进行去除    
+5、配置自己的端口号，package.json 里面的  
+
+```bash
+"config": {
+    "nuxt":{
+      "host":"0.0.0.0",
+      "port":"3000"
+    }
+},
+```
 
 
 # vue_nuxt

@@ -1,6 +1,12 @@
 <template>
     <div class="page">
         all-xxx
+        <br>
+        <ul>
+            <li><nuxt-link :to="{path:'/factory-all/detail/333'}">详情页动态路由页面</nuxt-link></li>
+            <li><nuxt-link :to="{path:'/factory-all/news'}">新闻页面</nuxt-link></li>
+        </ul>
+        
         
         <div id="myChart" style="height:300px;"></div>
 		<a-button type="primary" @click="jump">我是非默认主题按钮</a-button>

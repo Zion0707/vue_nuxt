@@ -1,0 +1,42 @@
+.fl{float: left;}
+.fr{float: right;}
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+
+#app{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+}
+.header{
+    height: 60px;
+    background-color: #7545C9;
+    color: #ffffff;
+}
+.container{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    top: 60px;
+    right: 0;
+}
+.main{
+    flex:1;
+    overflow-y: auto;
+}
+.footer{
+
+}
+.sidebar{
+    width: 260px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+.page{
+    
+}

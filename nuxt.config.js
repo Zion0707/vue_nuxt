@@ -24,12 +24,11 @@ export default {
             }
         ],
         link: [
-                {
-                    rel: 'icon',
-                    type: 'image/x-icon',
-                    href: '/favicon.ico'
-                }
+                {rel: 'icon',type: 'image/x-icon',href: '/favicon.ico' }
             ],
+        script:[
+            // {src:'~/assets/js/normal.js'}
+        ]
     },
     /*
      ** Customize the progress-bar color
@@ -43,7 +42,7 @@ export default {
      */
     css: [
         'ant-design-vue/dist/antd.less',
-        '@/assets/css/normal.css'
+        '@/static/css/normal.css'
     ],
     /*
      ** Plugins to load before mounting the App

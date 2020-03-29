@@ -4,6 +4,7 @@
 3、集成了 ant design vue UI 组件，配置了指定的颜色，可在 nuxt.config.js 中进行修改  
 4、集成了 echartjs 和 jquery，可根据自己的项目进行去除    
 5、配置自己的端口号，package.json 里面的  
+6、npm run generate 打包的静态文件需要配置nginx指向dist根目录，本地文件才能访问
 
 ```bash
 "config": {

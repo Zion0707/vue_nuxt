@@ -5,10 +5,8 @@ export default {
      ** Headers of the page
      */
     head: {
-        title: process.env.npm_package_name || '',
-        env:{
-            npm_package_name:'技术博客'
-        },
+        // title: process.env.npm_package_name || '',
+        title:'技术博客',
         meta: [
             {
                 charset: 'utf-8'
@@ -26,9 +24,7 @@ export default {
         link: [
                 {rel: 'icon',type: 'image/x-icon',href: '/favicon.ico' }
             ],
-        script:[
-            // {src:'~/assets/js/normal.js'}
-        ]
+        script:[]
     },
     /*
      ** Customize the progress-bar color

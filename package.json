@@ -21,7 +21,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "ant-design-vue": "^1.1.10",
     "echarts": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
